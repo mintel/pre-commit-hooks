@@ -5,7 +5,7 @@
   entry: hooks/tanka-fmt.sh
   language: script
   require_serial: true
-- id: terraform_validate
+- id: terraform-validate
   name: Terraform validate
   description: Validates all Terraform configuration files
   entry: hooks/terraform-validate.sh
